@@ -30,6 +30,7 @@ switch (process.env.NODE_ENV) {
     credentials = DATABASES.test
     break;
   default:
+    credentials = DATABASES.development
     break;
 }
 
